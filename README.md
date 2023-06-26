@@ -1,3 +1,8 @@
+[![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+[![Tweet](https://img.shields.io/twitter/url/https/github.com/Bayurzx/imageToText.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20this%20out:%20https://github.com/Bayurzx/imageToText)
+[![Twitter](https://img.shields.io/twitter/follow/AdebayoOmolumo)](https://twitter.com/AdebayoOmolumo)
+
+
 Image to Text Python Script
 ===========================
 

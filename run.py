@@ -1,15 +1,17 @@
 import os
 import easyocr
+import time
 
 # Get the current directory
 # C:\Users\USER\Downloads\ocr
-current_directory = "C:\\Users\\USER\\Downloads\\ocr"
+# current_directory = "C:\\Users\\USER\\Downloads\\ocr"
+current_directory = "C:\\Users\\USER\\Desktop\\ocr"
 
 # Initialize the OCR reader
 reader = easyocr.Reader(['en'])
 
 # Open a file for writing the results
-output_file = open('output.txt', 'w')
+output_file = open(f'output_{str(int(time.time()))}.txt', 'w')
 for filename in os.listdir(current_directory):
     # Check if the file is an image (you can add more image file extensions if needed)
     if filename.endswith(('.jpg', '.jpeg', '.png', '.gif')):
